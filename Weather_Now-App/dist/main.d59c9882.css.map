@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/style/main.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"main.d59c9882.css","sourceRoot":"..","sourcesContent":[".w_card {\n  background-color: white;\n  width: 25rem;\n  height: 25rem;\n}\n"]}
