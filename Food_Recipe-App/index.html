@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Recipes</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="style.css"/>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="mobile-container">
+            <header>
+                <input type="text" id="search-term">
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+            <div class="fav-container">
+                <h3>Favorite Meals</h3>
+                <ul class="fav-meals" id="fav-meals">
+                    <!-- List of Favourite Recipes -->
+                    <!-- <li>
+                        <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/yqwtvu1487426027.jpg">
+                        <span>Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt</span>
+                    </li>
+                    <li>
+                        <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/wuxrtu1483564410.jpg">
+                        <span>Dal fry</span>
+                    </li> -->
+                    
+                </ul>
+            </div>
+            <div class="meals" id="meals">
+                <!-- Javascript Part -->
+                <!-- <span class="random">
+                    Random Recipe
+                </span>
+                <div class="meal">
+                    <div class="meal-header">
+                        <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/qpqtuu1511386216.jpg" alt="">
+                    </div>
+                    <div class="meal-body">
+                        <h4>Veggies</h4>
+                        <button>
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="popup-container hidden" id="meal-popup">
+            <div class="popup">
+                <button id="close-popup" class="close-popup">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="meal-info" id="meal-info">
+    
+                    <!--Use JavaScript to fetch meal info-->
+                </div>
+    
+            </div>
+    
+        </div>
+    </body>
+</html>
